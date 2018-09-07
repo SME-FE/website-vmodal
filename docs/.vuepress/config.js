@@ -8,7 +8,7 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'smv-modal',
+      title: 'smv-modal [DOC WIP]',
       description: 'use modal with no tear 😂'
     },
     // '/zh/': {
