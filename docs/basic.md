@@ -32,3 +32,22 @@ const store = new Vuex.Store({
   }
 })
 ```
+
+## shorthand
+
+Thanks for template literals, you can write something like
+
+```js
+const modal = Modal`I'am content`;
+modal.show();
+```
+
+shorthand for `title` & `content`
+
+```js
+import ModalContent from './ModalContent.vue';
+
+const modalWithSFC = Modal`${ModalContent}`;
+const modalWithTitle = Modal`${'title here'} ${'content here'}`;
+const modalWithTitle2 = Modal`${'title here'} ${ModalContent}`;
+```

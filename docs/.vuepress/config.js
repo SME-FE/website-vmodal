@@ -49,7 +49,7 @@ module.exports = {
             title: 'Guide',
             children: [
               '/basic',
-              // '/template',
+              '/sfc',
               // '/redirect',
               // '/middleware',
               // '/nested-routes'
