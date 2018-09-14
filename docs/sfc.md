@@ -1,7 +1,7 @@
 
 # SFC
 
-SFC is Single File Component, which you can simly regard as .vue file. We can insert `non-props` SFC as modal content, and it work pretty well.
+SFC is Single File Component, which you can simly regard as `.vue` file. We can insert `non-props` SFC as modal content, and it work pretty well.
 
 ```js
 import ModalContent from './ModalContent.vue';
@@ -15,7 +15,7 @@ const modal = Modal({
 
 ## HTML String
 
-we can insert HTML String by using SFC, because modal will treat the string content as plain text.
+We can insert HTML String by using SFC, because modal will treat the string content as plain text.
 
 simple code here
 

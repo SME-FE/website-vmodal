@@ -50,6 +50,7 @@ module.exports = {
             children: [
               '/basic',
               '/sfc',
+              '/jsx'
               // '/redirect',
               // '/middleware',
               // '/nested-routes'
