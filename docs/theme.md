@@ -5,7 +5,7 @@
 
 There are `modalStyle` and `maskStyle` in Modal options, so we can change modal and mask style using those options.
 
-```
+```js
 const modal = Modal({
   title: 'Style',
   content: 'test',
@@ -55,7 +55,7 @@ const modal = Modal({
 
 and then
 
-```
+```css
 .smv-modal.red-modal {
   // your code
 }

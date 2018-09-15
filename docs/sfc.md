@@ -89,7 +89,7 @@ modal.show().then(result => {
 
 In some cases, you may want to validate or other things. And It's hard to complete these things by just set a `form` property.
 
-In such a case, we can set modal `footer` false, and implement the `cancel` and `confirm` action by ourself in `ModalContent` using [event](api_doc).
+In such a case, we can set modal `footer` false, and implement the `cancel` and `confirm` action by ourself in `ModalContent` using [event](/api.html#event).
 
 - ModalContent.vue
 ```html
