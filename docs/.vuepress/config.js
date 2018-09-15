@@ -8,7 +8,7 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'smv-modal [DOC WIP]',
+      title: 'smv-modal',
       description: 'use modal with no tear 😂'
     },
     // '/zh/': {
@@ -50,7 +50,8 @@ module.exports = {
             children: [
               '/basic',
               '/sfc',
-              '/jsx'
+              '/jsx',
+              '/theme'
               // '/redirect',
               // '/middleware',
               // '/nested-routes'
