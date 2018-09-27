@@ -21,11 +21,11 @@ const store = new Vuex.Store({
     count: 0
   },
   actions: {
-    async increment (context) {
-      try {
-        const resp = await = confirmModal.show();
+    async deleteItem (context) {
+      const resp = await confirmModal.show();
+      if (resp.type === 'confirm') {
         mockGet(`/shop/delete/${context.id}`);
-      } catch(err) {
+      } else {
         console.log('cancel delete')
       }
     }

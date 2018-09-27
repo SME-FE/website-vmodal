@@ -40,3 +40,15 @@ hide the modal
 ### modal.destroy
 
 destroy the modal
+
+## Event
+
+`smv-modal` listening three events that pass from the content component.
+
+Event Name | Description | example
+----|------|----
+confirmModal | hide and confirm the modal | this.$emit('confirmModal', { type: 'custom', data: data })
+cancelModal | hide and cancel the modal | this.$emit('confirmModal', { type: 'customCancel', data: data })
+setCloseable | wether the modal can be closed | this.$emit('setCloseable', false)
+
+- example in [ModalContent.vue file](/sfc.html#fully-replace-modal-with-sfc)

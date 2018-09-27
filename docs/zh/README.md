@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: Get Started →
-actionLink: /basic
+actionLink: /zh/basic
 features:
 - title: Promise
   details: more easier to get modal interactive in your code

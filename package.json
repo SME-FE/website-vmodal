@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "sme-log": "^0.13.2",
-    "vuepress-theme-one": "^0.12.2"
+    "vuepress-theme-one": "^0.12.3"
   }
 }
